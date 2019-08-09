@@ -1,0 +1,19 @@
+.custom-input{
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.todo-list{
+    background: red;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
