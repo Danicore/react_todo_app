@@ -12,17 +12,14 @@ class Home extends Component {
 
     submitTodo = (e) => {
         e.preventDefault();
-        const {title, description, todos} = this.state
-        const todoObj = {
-            title,
-            description
-        }
+        const {title, description, todos} = this.state;
+        const todoObj = {title, description}
         todos.push(todoObj)
         this.setState({todos})
     }
 
     deleteTodo(i) {
-        const {todos} = this.state
+        const {todos} = this.state;
         todos.splice(i, 1)
         this.setState({todos})
     }
