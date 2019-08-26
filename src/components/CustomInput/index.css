@@ -8,10 +8,18 @@
 }
 
 .todo-list{
-    background: red;
+    background: blue;
     border: none;
+    padding: 5px;
+    width: 50vw;
     color: white;
     font-size: 12px;
+    border-radius: 5px;
+}
+
+.todo-list button{
+    background: red;
+    border: none;
     padding: 5px;
     width: 100px;
     cursor: pointer;
